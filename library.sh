@@ -12,9 +12,4 @@ curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBra
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 sed -i 's/^ZSH_THEME=".*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 
-curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip
-sudo apt update && sudo apt install unzip -y
-mkdir -p ~/.local/share/fonts
-unzip -o JetBrainsMono.zip -d ~/.local/share/fonts
-fc-cache -f -v
-rm -rf ~/fonts_temp
+source ~/.zshrc
