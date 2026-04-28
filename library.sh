@@ -14,4 +14,4 @@ sed -i 's/^ZSH_THEME=".*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 
 sudo chsh -s $(which zsh) $(whoami)
 
-echo "Готово! Перезайди в терминал и запусти p10k configure"
+echo "type this command:exit"
