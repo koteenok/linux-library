@@ -2,7 +2,6 @@
 
 # 1. Обновление и база
 sudo apt update && sudo apt upgrade -y
-sudo apt install neofetch git curl -y
 
 curl -LO https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-linux-aarch64.deb && sudo apt install ./fastfetch-linux-aarch64.deb -y && rm fastfetch-linux-aarch64.deb
 
